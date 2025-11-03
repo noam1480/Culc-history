@@ -23,7 +23,8 @@ namespace WpfApp2
         private void CreateBorder(int num1, int num2, double answer,char ch)
         {
             Border border = new Border();
-            border.BorderThickness = new Thickness(20);
+            border.BorderThickness = new Thickness(1);
+            border.BorderBrush = Brushes.Black;
 
             StackPanel panel = new StackPanel();
 
